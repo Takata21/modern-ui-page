@@ -1,0 +1,139 @@
+<section class="gpt3__blog section__padding">
+  <div class="gpt3__blog-header">
+    <h2>A lot is happening, We are blogging about it.</h2>
+  </div>
+  <div class="gpt3__blog-content">
+    <div class="gpt3__blog-section-a">
+      <article class="gpt3__blog-article__large">
+        <img src="/img/blog01.png" alt="" />
+        <div class="gpt3__blog-article__desc-large">
+          <div>
+            <small>Sep 26, 2021</small>
+            <p>GPT-3 and Open AI is the future. Let us explore how it is?</p>
+          </div>
+          <a href="/blog/1">Read Full Article</a>
+        </div>
+      </article>
+    </div>
+    <div class="gpt3__blog-section-b">
+      <article class="gpt3__blog-article">
+        <img src="/img/blog02.png" alt="" />
+        <div class="gpt3__blog-article__desc">
+          <small>Sep 26, 2021</small>
+          <p>GPT-3 and Open AI is the future. Let us explore how it is?</p>
+          <a href="/blog/2">Read Full Article</a>
+        </div>
+      </article>
+      <article class="gpt3__blog-article">
+        <img src="/img/blog03.png" alt="" />
+        <div class="gpt3__blog-article__desc">
+          <small>Sep 26, 2021</small>
+          <p>GPT-3 and Open AI is the future. Let us explore how it is?</p>
+          <a href="/blog/3">Read Full Article</a>
+        </div>
+      </article>
+      <article class="gpt3__blog-article">
+        <img src="/img/blog04.png" alt="" />
+        <div class="gpt3__blog-article__desc">
+          <small>Sep 26, 2021</small>
+          <p>GPT-3 and Open AI is the future. Let us explore how it is?</p>
+          <a href="/blog/4">Read Full Article</a>
+        </div>
+      </article>
+      <article class="gpt3__blog-article">
+        <img src="/img/blog05.png" alt="" />
+        <div class="gpt3__blog-article__desc">
+          <small>Sep 26, 2021</small>
+          <p>GPT-3 and Open AI is the future. Let us explore how it is?</p>
+          <a href="/blog/5">Read Full Article</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+  .gpt3__blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .gpt3__blog-header h2 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 75px;
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gpt3__blog-content {
+    display: flex;
+    margin-top: 4rem;
+  }
+  .gpt3__blog-section-a {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+  }
+
+  .gpt3__blog-article__large {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--color-blog);
+  }
+
+  .gpt3__blog-article__desc-large {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    height: 100%;
+  }
+
+  .gpt3__blog-article__desc-large small,
+  .gpt3__blog-article small {
+    margin: 1rem;
+    color: white;
+    font-weight: 700;
+    font-size: 11.649px;
+    line-height: 35px;
+  }
+  .gpt3__blog-article__desc-large p,
+  .gpt3__blog-article p {
+    margin: 1rem;
+    color: white;
+    font-weight: 700;
+    font-size: 25.11px;
+    line-height: 30px;
+  }
+  .gpt3__blog-article__desc-large a,
+  .gpt3__blog-article a {
+    margin: 1rem;
+    color: white;
+    font-weight: 700;
+    font-size: 11.649px;
+    line-height: 35px;
+  }
+
+  .gpt3__blog-article__large img,
+  .gpt3__blog-article img {
+    width: 100%;
+  }
+  .gpt3__blog-section-b {
+    flex: 2 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .gpt3__blog-article {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-blog);
+  }
+  .gpt3__blog-article__desc {
+    padding: 1rem 1.5rem;
+  }
+</style>
